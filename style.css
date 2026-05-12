@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.901);
+    color: #e4fffa;
+    font-family: "Playwrite MX Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 50px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.upper-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.lower-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.green-box{
+    background-color: green;
+}
+
+.red-box{
+    background-color: red;
+}
+
+.yellow-box{
+    background-color: yellow;
+}
+
+.blue-box{
+    background-color: blue;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.max-opacity{
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
