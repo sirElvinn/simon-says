@@ -20,14 +20,13 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    gap: 50px;
+    gap: 30px;
 }
 .box {
     width: 200px;
     height: 200px;
     border: 10px solid white;
     border-radius: 20px;
-    opacity: 0.5;
 }
 
 .upper-box{
@@ -44,19 +43,19 @@ body {
     gap: 30px;
 }
 
-.green-box{
+.green{
     background-color: green;
 }
 
-.red-box{
+.red{
     background-color: red;
 }
 
-.yellow-box{
+.yellow{
     background-color: yellow;
 }
 
-.blue-box{
+.blue{
     background-color: blue;
 }
 
@@ -66,10 +65,16 @@ body {
     gap: 20px;
 }
 
-.max-opacity{
-    opacity: 1;
-}
 
 h2 {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.game-flash{
+    background-color: black;
+
+}
+
+.user-flash{
+    background-color: white;
 }
